@@ -1,1 +1,31 @@
+html {
+	font-family: monospace;
+}
+
+h1{
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	border: thin solid darkgrey;
+	background-color: lightgrey;
+	height: 100px;
+}
+#count {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 200px;
+    color: darkred;
+}
+#controls {
+	position: relative;
+	justify-content: center;
+	text-align: center;
+}
+#start {
+	color: green;
+}
+#stop {
+	color: red;
+}
 
