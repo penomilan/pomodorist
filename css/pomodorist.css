@@ -3,12 +3,12 @@ html {
 }
 
 h1{
+	padding: 50px;
 	position: relative;
 	justify-content: center;
 	text-align: center;
 	border: thin solid darkgrey;
 	background-color: lightgrey;
-	height: 100px;
 }
 #count {
     position: relative;
@@ -24,8 +24,20 @@ h1{
 }
 #start {
 	color: green;
+	background-color: lightgreen;
 }
 #stop {
 	color: red;
+	background-color: orange;
+}
+#descript {
+	margin: 30px;
+	border: 1px;
+	text-align: center;
+}
+footer {
+	position: relative;
+	text-align: center;
+	padding-bottom: 20px;
 }
 

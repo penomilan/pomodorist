@@ -13,11 +13,15 @@
 
 <body>
     <h1>POMODORO TECHNIQUE</h1>
-    <div id="count">25</div>
+    <div id="count">1500</div>
     <div id="controls">
         <button id="start" onclick="counter()">START</button>
-        <button id="stop">STOP</button>
+        <button id="stop" onclick="location.reload()">RESET</button>
     </div>
+    <div id="descript">The <i>Pomodoro Technique</i> is a simple time management technique that breaks your time down into chunks. You work for 25 minutes and then take a five-minute break, wash, rinse, repeat two more times, and finally work for another 25 minutes and take a 15-minute (or longer) break. This timer counting down for you from 25 minutes, and all you have to do is to click on <strong>"START"</strong>. Enjoy!</div>
+
+    <audio id="song" src="pomodorist.mp3" type="audio/mpeg"></audio>
+    <footer>&copy;2017MilanPeno</footer>
     <script type="text/javascript" src="js/pomodorist.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
