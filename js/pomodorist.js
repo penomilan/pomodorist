@@ -1,14 +1,18 @@
-function counter() {
-  var n=1500;
+  var s=10;
+  var m=0;
+  var x;
 function counter1() {
-   if (n < 0) {
-    location.reload();
-    alert("YOU NEED A BREAK!");
-      
-   }
-   
-document.getElementById("count").innerHTML=n;
-       n--;
-     }
-window.setInterval(counter1, 1000);
+   if (s < 0) {
+    m--;
+      }
+      if (m < 0) {
+      	alert("YOU NEED A BREAK");
+           	location.reload();
+           }
+   document.getElementById("count").innerHTML=m+":"+s;
+       s--;
 }
+function counter() { 
+	x = setInterval(counter1, 1000);
+}
+function stop() { clearInterval(x); }
