@@ -1,4 +1,4 @@
-  var s=60;
+  var s=59;
   var m=24;
   var x;
 function counter1() {
