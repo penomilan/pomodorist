@@ -1,5 +1,5 @@
-  var s=10;
-  var m=0;
+  var s=59;
+  var m=24;
   var x;
 function counter1() {
    if (s < 0) {
