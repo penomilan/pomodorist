@@ -10,7 +10,7 @@ h1{
 	border: thin solid darkgrey;
 	background-color: lightgrey;
 }
-#count {
+#display {
     position: relative;
     justify-content: center;
     text-align: center;
@@ -26,7 +26,7 @@ h1{
 	color: green;
 	background-color: lightgreen;
 }
-#stop {
+#pause {
 	color: red;
 	background-color: orange;
 }

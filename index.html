@@ -13,11 +13,11 @@
 
 <body>
     <h1>POMODORO TECHNIQUE</h1>
-    <div id="count">25:00</div>
+    <div id="display">25:00</div>
     <div id="controls">
-        <button id="start" onclick="counter()">START</button>
-        <button id="pause" onclick="stop()">PAUSE</button>
-        <button id="stop" onclick="location.reload()">RESET</button>
+        <button id="start" title="Start work timer" onclick="work()">PLAY</button>
+        <button id="pause" title="Start rest timer" onclick="rest()">BREAK</button>
+        <button id="stop" title="Stop running timer" onclick="stop1()">STOP</button>
     </div>
     <div id="descript">The <i>Pomodoro Technique</i> is a simple time management technique that breaks your time down into chunks. You work for 25 minutes and then take a five-minute break, wash, rinse, repeat two more times, and finally work for another 25 minutes and take a 15-minute (or longer) break. This timer counting down for you from 25 minutes, and all you have to do is to click on <strong>"START"</strong>. Enjoy!</div>
     <img id="pic" src="http://www.pixempire.com/images/preview/tomatoe-with-gloss.jpg"></img>
