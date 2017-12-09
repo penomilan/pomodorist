@@ -1,3 +1,4 @@
+var tone = document.getElementById("alert");
 var start = document.getElementById('start');
 var pause = document.getElementById('pause');
 pause.disabled = true;
@@ -16,6 +17,8 @@ function countdown() {
   refresh();
   if (time  == 0) {
     stop1();
+      tone.play();
+      
   }
 }
 

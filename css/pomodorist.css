@@ -1,20 +1,24 @@
 html {
 	font-family: monospace;
 }
+body {
+    background-color: #ffdccc;
+}
 
 h1{
 	padding: 50px;
 	position: relative;
 	justify-content: center;
 	text-align: center;
-	border: thin solid darkgrey;
-	background-color: lightgrey;
+	background-color: #ffcbb3;
+    background-size: cover;
+    color: #e64900;
 }
 #display {
     position: relative;
     justify-content: center;
     text-align: center;
-    font-size: 200px;
+    font-size: 8em;
     color: darkred;
 }
 #controls {
@@ -31,16 +35,18 @@ h1{
 	background-color: orange;
 }
 #descript {
-	margin: 30px;
+	margin: 5em;
 	border: 1px;
 	text-align: center;
 }
 footer {
+    background-color: #ffeee6;
 	position: relative;
 	text-align: center;
-	padding-bottom: 20px;
+	padding: 5%;
 }
 img {
+    padding: 1%;
 	display: block;
         margin: auto;
         width: 10%;
