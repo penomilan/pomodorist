@@ -15,6 +15,9 @@ function refresh() {
 function countdown() {
   --time;
   refresh();
+    if (time < 10) {
+        time = "0"+time;
+    }
   if (time  == 0) {
     stop1();
       tone.play();
